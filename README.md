@@ -24,8 +24,13 @@ It is designed to load/store and manage pages from an executable file into main 
 To use the memory simulation program, follow these steps:
 
 Include the `sim_mem.h` header file in your code.
+
 Create an instance of the `sim_mem` class, providing the necessary parameters such as the `executable file name` `swap file name` `memory sizes`, and `page size`.
+
 Use the `load` method to load pages from memory using the address as input. The method returns the character stored at the specified address.
+
 Use the `store` method to load pages from memory using the address as input. The method will store the value provided in the given address.
+
 Perform other operations and utilize the memory management features as needed.
+
 Clean up resources by deleting the memory instance using the destructor `~sim_mem()`.
